@@ -1,0 +1,7 @@
+services:
+  phising:
+    build: .
+    environment:
+      OPTION: 6
+    ports:
+      - "8080:8080"
